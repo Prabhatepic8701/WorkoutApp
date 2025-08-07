@@ -19,7 +19,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-// For web, set browserLocalPersistence
+
 if (Platform.OS === 'web') {
   setPersistence(auth, browserLocalPersistence);
 }

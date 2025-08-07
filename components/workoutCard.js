@@ -1,4 +1,3 @@
-// components/WorkoutCard.js
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, View, Image } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';

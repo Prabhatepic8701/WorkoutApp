@@ -1,6 +1,7 @@
-// screens/HomeScreen.js
+
 import React from 'react';
-import { View, FlatList, StyleSheet, Button, SafeAreaView } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { View, FlatList, StyleSheet, SafeAreaView } from 'react-native';
 import WorkoutCard from '../components/workoutCard';
 import { auth } from '../firebaseConfig';
 import { signOut } from 'firebase/auth';
@@ -14,6 +15,14 @@ const workouts = [
 ];
 
 export default function HomeScreen({ navigation }) {
+  const handleLogout = async () => {
+    try {
+      await AsyncStorage.removeItem('userCreds');
+      await signOut(auth);
+    } catch (e) {
+      console.error('Logout error:', e);
+    }
+  };
   return (
     <SafeAreaView style={{ flex: 1 }}>
     <View style={styles.container}>
@@ -34,7 +43,7 @@ export default function HomeScreen({ navigation }) {
       </View>
       <View style={styles.buttonRow}>
         <CustomButton label="View History" onPress={() => navigation.navigate('History')} />
-        <CustomButton label="Logout" onPress={() => signOut(auth)} />
+        <CustomButton label="Logout" onPress={handleLogout} />
       </View>
     </View>
     </SafeAreaView>
