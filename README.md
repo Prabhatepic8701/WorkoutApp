@@ -19,7 +19,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone <https://github.com/Prabhatepic8701/WorkoutApp.git>
+git clone https://github.com/Prabhatepic8701/WorkoutApp.git
 cd ThreeScreenWorkoutTracker
 ```
 
@@ -34,7 +34,7 @@ yarn install
 - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
 - Enable Email/Password Authentication
 - (Optional) Enable Google Authentication
-- Copy your Firebase config and update `firebaseConfig.js`
+
 
 ### 4. Run the App
 ```bash
