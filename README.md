@@ -47,7 +47,7 @@ npx expo start
 
 ## Folder Structure
 ```
-ThreeScreenWorkoutTracker/
+WorkoutApp/
 ├── App.js
 ├── firebaseConfig.js
 ├── components/
