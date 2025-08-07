@@ -19,7 +19,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Prabhatepic8701/WorkoutApp.git>
 cd ThreeScreenWorkoutTracker
 ```
 
