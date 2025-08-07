@@ -3,14 +3,16 @@ import { initializeApp } from "firebase/app";
 import { getAuth, setPersistence, browserLocalPersistence } from "firebase/auth";
 import { Platform } from 'react-native';
 
+import Constants from 'expo-constants';
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBg-l5Yx2lwBaTftNwxi5l4aqVzwteVwmA",
-  authDomain: "threescreenworkouttracker.firebaseapp.com",
-  projectId: "threescreenworkouttracker",
-  storageBucket: "threescreenworkouttracker.firebasestorage.app",
-  messagingSenderId: "308012972238",
-  appId: "1:308012972238:web:1c257e38d997983313f89f",
-  measurementId: "G-K4ERYWW34J"
+  apiKey: Constants.expoConfig.extra.firebaseApiKey,
+  authDomain: Constants.expoConfig.extra.firebaseAuthDomain,
+  projectId: Constants.expoConfig.extra.firebaseProjectId,
+  storageBucket: Constants.expoConfig.extra.firebaseStorageBucket,
+  messagingSenderId: Constants.expoConfig.extra.firebaseMessagingSenderId,
+  appId: Constants.expoConfig.extra.firebaseAppId,
+  measurementId: Constants.expoConfig.extra.firebaseMeasurementId
 };
 
 

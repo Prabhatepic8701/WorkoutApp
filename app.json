@@ -1,18 +1,18 @@
 {
   "expo": {
-    "extra": {
-      "firebaseApiKey": "${FIREBASE_API_KEY}",
-      "firebaseAuthDomain": "${FIREBASE_AUTH_DOMAIN}",
-      "firebaseProjectId": "${FIREBASE_PROJECT_ID}",
-      "firebaseStorageBucket": "${FIREBASE_STORAGE_BUCKET}",
-      "firebaseMessagingSenderId": "${FIREBASE_MESSAGING_SENDER_ID}",
-      "firebaseAppId": "${FIREBASE_APP_ID}",
-      "firebaseMeasurementId": "${FIREBASE_MEASUREMENT_ID}",
-      "googleExpoClientId": "${GOOGLE_EXPO_CLIENT_ID}",
-      "googleIosClientId": "${GOOGLE_IOS_CLIENT_ID}",
-      "googleAndroidClientId": "${GOOGLE_ANDROID_CLIENT_ID}",
-      "googleWebClientId": "${GOOGLE_WEB_CLIENT_ID}"
-    },
+  "extra": {
+  "firebaseApiKey": "AIzaSyBg-l5Yx2lwBaTftNwxi5l4aqVzwteVwmA",
+  "firebaseAuthDomain": "threescreenworkouttracker.firebaseapp.com",
+  "firebaseProjectId": "threescreenworkouttracker",
+  "firebaseStorageBucket": "threescreenworkouttracker.firebasestorage.app",
+  "firebaseMessagingSenderId": "308012972238",
+  "firebaseAppId": "1:308012972238:web:1c257e38d997983313f89f",
+  "firebaseMeasurementId": "G-K4ERYWW34J",
+  "googleExpoClientId": "685383029858-mmli6mv2m51ejao2j96rfr7hadjm2pei.apps.googleusercontent.com",
+  "googleIosClientId": "685383029858-5o13bj1ug88bp05tud1eqesgq15ka480.apps.googleusercontent.com",
+  "googleAndroidClientId": "685383029858-l0c7n16h0bdblo815ve90qv2o2c6j41f.apps.googleusercontent.com",
+  "googleWebClientId": "685383029858-mmli6mv2m51ejao2j96rfr7hadjm2pei.apps.googleusercontent.com"
+},
 
     "name": "ThreeScreenWorkoutTracker",
     "slug": "ThreeScreenWorkoutTracker",
