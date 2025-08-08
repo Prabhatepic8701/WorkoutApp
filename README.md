@@ -15,6 +15,12 @@
 - Workout history screen (locally stored)
 - (Optional) Dark mode support
 
+## App Screenshots
+
+| Login Screen | Home Screen | Workout Detail |
+|--------------|-------------|----------------|
+| ![Login Screen](assets/WhatsApp%20Image%202025-08-08%20at%2012.09.30.jpeg) | ![Home Screen](assets/WhatsApp%20Image%202025-08-08%20at%2012.09.30%20(1).jpeg) | ![Workout Detail](assets/WhatsApp%20Image%202025-08-08%20at%2012.09.30%20(2).jpeg) |
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
